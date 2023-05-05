@@ -6,6 +6,6 @@ pipelines:
         clone:
           enabled: false
         script:
-          - git clone --bare git clone git@bitbucket.org:duckduckgo95/oop-concepts.git
+          - git clone --bare git@bitbucket.org:duckduckgo95/oop-concepts.git
           - cd oop-concepts.git
           - git push --mirror git@github.com:ijaaz9/oop-concepts.git
